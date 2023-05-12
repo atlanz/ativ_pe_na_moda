@@ -180,6 +180,11 @@ body{
     #div_gridada{
         display: block;
     }
+
+}
+
+
+@media (max-width: 600px){
     #img_produto{
         height: 100px;
         width: 100px;
