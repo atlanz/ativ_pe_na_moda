@@ -152,6 +152,10 @@ body{
     .pag_main{
         height: 860px;
     }
+    #img_produto{
+        height: 300px;
+        width: 300px;
+    }
     form{
         margin: 50px;
         display: grid;
