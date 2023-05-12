@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/45751c5e31.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/style.css">
+    
+    <title>Pé Na Moda</title>
+</head>
+<body>
+    <div id="bar_left">
+        <div class="barPL"><img src="assets/img/penamoda-removebg-preview 1.png" alt="logo"></div>
+        <div class="barP"><i class="fa-solid fa-bell"></i></div>
+        <div class="barP"><i class="fa-solid fa-briefcase"></i></div>
+        <div class="barP"><i class="fa-solid fa-shield"></i></div>
+        <div class="barPV"></div>  
+    </div>
+<!-- =================================================================================================== -->
+    <main>
+        <div>
+            <header>
+                <div class="title_div">
+                    <h3>Pé Na Moda</h3>
+                </div>
+                <div class="busque_div">
+                    <input type="text" class="buscar" placeholder= " Buscar ">
+                </div>
+                <div class="btn_div">
+                    <BUtton id="exibe">mostrar</BUtton>
+                </div>
+            </header>
+        </div>  
+<!-- =================================================================================================== -->
+        <div class="input_family">
+            <form action="">
+                <input id="nome" type="text" placeholder="Nome:">
+                <input id="descricao" type="text" placeholder="Descrição:">
+                <input id="categoria" type="text" placeholder="Categoria:">
+                <input id="preco" type="text" placeholder="Preço:">
+                <input id="imagem" type="text" placeholder="Imagem:">
+                <button id="btn"  type="button">Criar  <i class="fa-solid fa-plus"></i></button>
+              </form> 
+        </div>
+<!-- =================================================================================================== -->       
+        <section class="pag_main">
+                
+                <div id="vai" class="produto1">
+                </div>
+                <div id="scrow">
+                <form class="input_family" action="">
+                        <input class="inpbaixo" id="posicao" type="hidden" >
+                        <input class="inpbaixo" id="nomeEdita" type="text" placeholder="Nome:">
+                        <input class="inpbaixo" id="descricaoEdita" type="text" placeholder="Descrição: ">
+                        <input class="inpbaixo" id="categoriaEdita" type="text" placeholder="Categoria:">
+                        <input class="inpbaixo" id="precoEdita" type="text" placeholder="Preço:">
+                        <input class="inpbaixo" id="imagemEdita" type="text" placeholder="Imagem:">
+                        <button id="btnEdita" type="button">Editar</button>
+                    </form>
+                </div>
+        </section>
+<!-- =================================================================================================== -->
+    </main>
+    <script src="assets/script.js"></script>
+</body>
+</html>

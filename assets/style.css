@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;}
+button{
+    cursor: pointer;}
+/* ============================================================================== */
+body{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 18fr;
+    background-color: #BDD2F8;}
+main{
+    background-color:#8BB3EF;}
+header{
+    padding: 30px;
+    background-color:#8BB3EF;
+    height: 80px;
+    border-bottom: 8px solid gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;}
+header input{
+    padding: 10px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;}
+header button{
+    padding: 8px;
+    border-radius: 100px;
+    width: 80px;
+    border: none;}
+h3{
+    
+    font-family: 'Italiana';
+    font-style: normal;
+    font-size: 30px;}
+header{
+    display: grid;
+    grid-template-rows: 1fr 1fr;}
+button{
+    background-color: #84D2F8;}
+/* ============================================================================== */
+i{
+    font-size: 25px;}
+button i, header i{
+    font-size: 15px;}
+/* ============================================================================== */
+.barP, .barPV, .barPL{
+    padding: 20px;
+    margin-top: 4px;
+    width: 100%;}
+#bar_left{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    background-color: #6180EF;
+    height: 100%;
+    border-radius: 20px 0px 0px;}
+.barPV{
+    border-top: 2px solid black;}
+.barPL{
+    border-bottom: 2px solid black;}
+.btn_div{
+    margin-left: 300px;}
+/* ============================================================================== */
+.pag_main{
+    background-color: #84D2F8;
+    height: 472px;
+    margin: 50px;
+    border-radius: 30px;
+    padding: 30px;}
+.produto1, .produto2, .produto3{
+    background-color: rgb(237, 233, 233);
+    height: 110px;
+    margin: 10px;
+    border-radius: 10px;}
+.pag_main button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif }
+/* ============================================================================== */
+.input_family{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;}
+.input_family input{
+    padding: 4px;
+    border-radius: 20px;
+    border: 0.2px solid black;}
+.products{
+    display: grid;
+    grid-template-columns:2fr 1000fr;
+    padding: 12px;}
+/* ============================================================================== */
+
+#vai{
+    padding: 20px;
+    height: 350px;
+    overflow: auto;
+}
+
+body{
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+.inpbaixo{
+    height: 40px;
+}
+#btn{
+    padding: 4px;
+    border: 0.2px solid black;
+    border-radius: 20px;
+}
+.inpbaixo{
+    padding: -8px;
+}
+#div_gridada{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+/* ============================================================================== */
+@media (max-width: 2391px){          
+    #bar_left{
+        display: none;
+    }
+    body{
+        display: block;
+        display: wrap;
+    }
+}
+@media (max-width: 2692px){
+    #exibe{
+        display: none;                  
+    }
+}
+@media (max-width: 1040px){
+    .input_family{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .pag_main{
+        height: 860px;
+    }
+    form{
+        margin: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}
+@media (max-width: 500px){
+    .buscar{
+        width: 250px;
+    }
+}
+@media (max-width: 500px){
+    .buscar{
+        width: 200px;
+    }
+}
+@media (max-width: 400px){
+    .buscar{
+        width: 150px;
+    }
+    #div_gridada{
+        display: block;
+    }
+}
