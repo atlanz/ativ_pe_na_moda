@@ -176,4 +176,8 @@ body{
     #div_gridada{
         display: block;
     }
+    #img_produto{
+        height: 100px;
+        width: 100px;
+    }
 }
