@@ -123,6 +123,11 @@ body{
     grid-template-columns: 1fr 1fr;
    
 }
+
+#img_produto{
+    height: 300px;
+    width: 300px;
+}
 /* ============================================================================== */
 @media (max-width: 2391px){          
     #bar_left{

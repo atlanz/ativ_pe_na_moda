@@ -16,7 +16,7 @@ function exibeMostrar() {
         listaProdutos += 'descrição: ' + produtos.descricao + '<br>';
         listaProdutos += 'Categoria: ' + produtos.categoria + '<br>';
         listaProdutos += 'Preço: ' + produtos.preco + '<br>';
-        listaProdutos += 'Imagem:' + produtos.imagem + '<br>';
+        listaProdutos += 'Imagem:' + '<img  id = "img_produto" src='+produtos.imagem+' alt="">' + '<br>';
         listaProdutos += '</div>'
         listaProdutos += '<div>'
         listaProdutos += "<button class='editbb' onclick='modificar ("+ index +")'>Editar</button>";
