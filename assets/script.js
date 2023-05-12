@@ -39,7 +39,7 @@ produtos : [
   descricao : "Sapato padrão Adicionado manualmente",
   categoria : "Padrão Social",
   preco : 99.99,
-  imagem : "Sorria pra fto ! :)"
+  imagem : "https://img.freepik.com/fotos-gratis/imagem-aproximada-da-cabeca-de-um-lindo-leao_181624-35855.jpg"
 
 }
 ],
